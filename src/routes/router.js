@@ -3,19 +3,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
+import { useAuth } from '~/context/auth';
+
 export default function RouteWrapper({
   component: Component,
   isPrivate,
   ...rest
 }) {
-  const { signed } = false;
+  const { signed } = useAuth();
 
   if (!signed && isPrivate) {
     return <Redirect to="/" />;
   }
 
   if (signed && !isPrivate) {
-    return <Redirect to="/logged" />;
+    return <Redirect to="/vehicles" />;
   }
 
   return <Route {...rest} component={Component} />;

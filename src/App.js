@@ -2,17 +2,21 @@ import React from 'react';
 import { ToastContainer } from 'react-toastify';
 
 import { GlobalStyle } from './theme/global';
-
 import Routes from './routes/routes';
 
-function App() {
+import { AuthProvider } from '~/context/auth';
+import { ThemeProvider } from '~/context/theme';
+
+const App = () => {
   return (
-    <>
-      <GlobalStyle />
-      <ToastContainer />
-      <Routes />
-    </>
+    <AuthProvider>
+      <ThemeProvider>
+        <GlobalStyle />
+        <ToastContainer />
+        <Routes />
+      </ThemeProvider>
+    </AuthProvider>
   );
-}
+};
 
 export default App;

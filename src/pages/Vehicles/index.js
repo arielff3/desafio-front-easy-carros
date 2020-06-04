@@ -2,6 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-export default function Main() {
-  return <div />;
+function Vehicles() {
+  return <p>Teste</p>;
 }
+
+export default Vehicles;
