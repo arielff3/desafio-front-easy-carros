@@ -22,9 +22,10 @@
 ```bash
 # Clone o repositório
 https://github.com/arielff3/desafio-front-easy-carros.git
-# Em seguida execute:
+# Em seguida, vá para a pasta do projeto:
 $ cd desafio-front-easy-carros
+# Baixe as dependências 
 $ yarn install
-# Para iniciar a aplicação
+# Para iniciar a aplicação excute
 $ yarn start
 
