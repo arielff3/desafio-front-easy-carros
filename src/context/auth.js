@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React, { createContext, useState, useContext } from 'react';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
@@ -17,12 +16,10 @@ export const AuthProvider = ({ children }) => {
       });
       const { token } = response.data.data;
 
-      api.defaults.headers.Authorization = `JWT ${token}`;
-
       localStorage.setItem('@token', token);
       setSigned(true);
     } catch (err) {
-      toast.error('Usuário e/ ou Senha inválidos');
+      toast.error('Usuário e/ ou Senha inválidos.');
     }
   }
 
@@ -31,7 +28,7 @@ export const AuthProvider = ({ children }) => {
       setSigned(false);
       localStorage.clear();
     } catch (err) {
-      toast.error('Error');
+      toast.error('Ocorreu um erro ao sair.');
     }
   }
 
@@ -55,5 +52,5 @@ export function useAuth() {
 export default AuthContetx;
 
 AuthProvider.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
 };

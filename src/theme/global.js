@@ -33,11 +33,6 @@ export const GlobalStyle = createGlobalStyle`
     transition: all 0.25s linear;
   }
 
-  li {
-    background:${({ theme }) => theme.article};
-    transition: all 0.25s linear;
-  }
-
   input, button, textarea, a{
     font: 400 18px Roboto, sans-serif;
     color: ${({ theme }) => theme.text};
@@ -45,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
   input, textarea {
     color: ${({ theme }) => theme.inputText};
   }
-  strong, p {
+  strong {
     color: ${({ theme }) => theme.text};
   }
 

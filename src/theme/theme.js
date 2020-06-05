@@ -8,8 +8,10 @@ export const lightTheme = {
   svg: '#00cde4',
   input: '#fff',
   inputText: '#363537',
-  border: '1px solid #f0f0f5',
+  border: '1px solid #363537',
   animation: require('../animation/car.gif'),
+  box: '#363537',
+  box_text: '#fff',
 };
 
 export const darkTheme = {
@@ -24,4 +26,6 @@ export const darkTheme = {
   inputText: '#363537',
   border: '1px solid #fff',
   animation: require('../animation/carBlack.gif'),
+  box: '#fff',
+  box_text: '#363537',
 };
