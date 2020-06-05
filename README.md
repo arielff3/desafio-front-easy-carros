@@ -1,34 +1,31 @@
 
 <h1 align="center">
-  <img src="https://github.com/arielff3/gostack11-desafio-conceitos-nodejs/raw/master/.github/readmeLogo.png" alt="GoStack">
+  <img src="./.github/reameLogo.png" alt="Easy">
 </h1>
 
-<h2 align="center">Desafio 05: Fundamentos Node.js</h2>
+<h2 align="center">Desafio FrontEnd - Easy Carros - by: Ariel Franco</h2>
 
 
 ## 🚀 Sobre o desafio
 
-<p>quinto desafio do GoStack 11 para aprimorar so Fundamentos Node.js</p>
-<p>Aplicação lidar com transações.</p>
+<p>Recebi uma missão de fazer uma funcionalidade chamada: controle de veículos da frota, junta uma tela de login.</p>
+<p>Acresentei o modo dark, e inseri uma animações na tela de login para deixar a entrada agradavél</p>
 
 ## 🔧 Tecnologias
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
-- [Node.js]()
-- [Express]()
+- [Reactjs]()
+- [Javascript]()
 - [Nodemon]()
-- [Jest]()
-- [TypeScript]()
 
 ## 💾 Instalação
 
 ```bash
 # Clone o repositório
-https://github.com/arielff3/gostack11-desafio-fundamentos-nodejs
+https://github.com/arielff3/desafio-front-easy-carros.git
 # Em seguida execute:
-$ cd gostack11-desafio-fundamentos-nodejs
-$ yarn
+$ cd desafio-front-easy-carros
+$ yarn install
 # Para iniciar a aplicação
-$ yarn dev
-#Para inicar os testes
-$ yarn test
+$ yarn start
+

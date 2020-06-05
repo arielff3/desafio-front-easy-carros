@@ -11,19 +11,23 @@ export const Container = styled.div`
 
   img {
     height: 100%;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px auto;
   }
 `;
 
 export const ContainerForm = styled.div`
   width: 100%;
   max-width: 500px;
+  padding: 20px;
   margin: auto;
   @media screen and (max-width: 800px) {
     text-align: center;
