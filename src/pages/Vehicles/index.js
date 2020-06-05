@@ -18,7 +18,7 @@ import {
   Logoff,
 } from './styles';
 
-function Vehicles() {
+export default function Vehicles() {
   // Veículos [{}]
   const [vehicles, setVehicles] = useState([]);
   // Input
@@ -127,5 +127,3 @@ function Vehicles() {
     </Section>
   );
 }
-
-export default Vehicles;

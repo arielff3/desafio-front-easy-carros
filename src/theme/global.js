@@ -2,7 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
   * {
     padding: 0;
     margin: 0;
@@ -20,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     transition: all 0.25s linear;
   }
 
-  input, textarea {
+  input {
     background:${({ theme }) => theme.input};
     color: ${({ theme }) => theme.text};
     border: ${({ theme }) => theme.border};
@@ -37,16 +36,14 @@ export const GlobalStyle = createGlobalStyle`
     font: 400 18px Roboto, sans-serif;
     color: ${({ theme }) => theme.text};
   }
-  input, textarea {
+  input {
     color: ${({ theme }) => theme.inputText};
-  }
-  strong {
-    color: ${({ theme }) => theme.text};
   }
 
   button {
     cursor: pointer;
   }
+
   button {
     color: ${({ theme }) => theme.svg}
   }

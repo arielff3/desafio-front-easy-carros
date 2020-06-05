@@ -9,13 +9,18 @@ import { useTheme } from '~/context/theme';
 
 import { ReactComponent as Logo } from '~/assets/logo.svg';
 
-function SignIn() {
+export default function SignIn() {
+  // Input email
   const [email, setEmail] = useState('');
+  // Input Password
   const [password, setPassword] = useState('');
 
+  // Hook de login
   const { signIn } = useAuth();
+  // Animações do carro
   const { animation } = useTheme();
 
+  // Função para efetuar login
   const handleSubmit = () => {
     signIn({ email, password });
   };
@@ -32,12 +37,14 @@ function SignIn() {
             placeholder="Email"
             type="email"
             required
+            name="email"
           />
           <Input
             value={password}
             onChange={e => setPassword(e.target.value)}
             placeholder="Senha"
             type="password"
+            name="password"
             required
           />
           <Button onClick={() => handleSubmit()} type="button">
@@ -49,5 +56,3 @@ function SignIn() {
     </Container>
   );
 }
-
-export default SignIn;

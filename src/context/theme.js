@@ -1,4 +1,3 @@
-/* eslint-disable react/forbid-prop-types */
 import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 
@@ -37,5 +36,5 @@ export const ThemeProvider = ({ children }) => {
 };
 
 ThemeProvider.propTypes = {
-  children: PropTypes.array.isRequired,
+  children: PropTypes.arrayOf(PropTypes.object).isRequired,
 };

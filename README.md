@@ -1,36 +1,34 @@
-# ReactJS Template Simple
 
-### Libs
+<h1 align="center">
+  <img src="https://github.com/arielff3/gostack11-desafio-conceitos-nodejs/raw/master/.github/readmeLogo.png" alt="GoStack">
+</h1>
 
-> :pencil2: Eslint
----------
-> :mag: Root Import
----------
-> :black_nib: Prettier
----------
-> :running: Axios
----------
-> :left_right_arrow: React Router Dom
----------
-> :bell: React Toastify
----------
-> :nail_care: Style Components
----------
-> :guardsman: Prop-Types
+<h2 align="center">Desafio 05: Fundamentos Node.js</h2>
 
 
-### Start
+## 🚀 Sobre o desafio
 
-##### Use
--------
-> yarn install
--------
-> yarn start
+<p>quinto desafio do GoStack 11 para aprimorar so Fundamentos Node.js</p>
+<p>Aplicação lidar com transações.</p>
 
+## 🔧 Tecnologias
+<p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
+- [Node.js]()
+- [Express]()
+- [Nodemon]()
+- [Jest]()
+- [TypeScript]()
 
+## 💾 Instalação
 
-
-
-__By__: _Ariel Franco_ :rocket:
-
+```bash
+# Clone o repositório
+https://github.com/arielff3/gostack11-desafio-fundamentos-nodejs
+# Em seguida execute:
+$ cd gostack11-desafio-fundamentos-nodejs
+$ yarn
+# Para iniciar a aplicação
+$ yarn dev
+#Para inicar os testes
+$ yarn test

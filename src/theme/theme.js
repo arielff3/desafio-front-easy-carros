@@ -7,15 +7,15 @@ export const lightTheme = {
   gradient: 'linear-gradient(#39598A, #79D7ED)',
   svg: '#00cde4',
   input: '#fff',
-  inputText: '#363537',
-  border: '1px solid #363537',
+  inputText: '#2C2B2D',
+  border: '1px solid #2C2B2D',
   animation: require('../animation/car.gif'),
-  box: '#363537',
+  box: '#2C2B2D',
   box_text: '#fff',
 };
 
 export const darkTheme = {
-  body: '#363537',
+  body: '#2C2B2D',
   article: '#2c2b2b',
   box_shadow: '0 0 60px rgba(255,255,255,0.1)',
   text: '#FAFAFA',
@@ -23,9 +23,9 @@ export const darkTheme = {
   gradient: 'linear-gradient(#091236, #1E215D)',
   svg: '#ffff',
   input: '#fff',
-  inputText: '#363537',
+  inputText: '#2C2B2D',
   border: '1px solid #fff',
   animation: require('../animation/carBlack.gif'),
   box: '#fff',
-  box_text: '#363537',
+  box_text: '#2C2B2D',
 };
