@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="./.github/reameLogo.png" alt="Easy">
+  <img src="./.github/zreameLogo.png" alt="Easy">
 </h1>
 
 <h2 align="center">Desafio FrontEnd - Easy Carros - by: Ariel Franco</h2>
@@ -14,8 +14,8 @@
 ## 🔧 Tecnologias
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 
-- [Reactjs]
-- [Javascript]
+- Reactj
+- Javascript
 
 ## 💾 Instalação
 
